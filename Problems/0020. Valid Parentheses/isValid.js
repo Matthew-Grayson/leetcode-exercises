@@ -17,7 +17,5 @@ var isValid = function(s) {
             return false;
         }
     }
-    if(testArr.length === 0) {
-        return true;
-    } else return false;
+    return testArr.length === 0;
 }
